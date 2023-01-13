@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify, request
 
 app = Flask(__name__)
 
-CARD_DATA = (
+CARD_DATA = [
     {
         "name": "Balloonicorn",
         "skill": "video games",
@@ -51,7 +51,7 @@ CARD_DATA = (
         "imgUrl": "/static/img/merge.png",
         "cardId": 8,
     },
-)
+]
 
 
 

@@ -113,8 +113,8 @@ function TradingCardContainer() {
   const [cards, setCards] = React.useState([]);
 
   function addCard(newCard) {
-    const currentCards = [...cards];
-    setCards([...currentCards, newCard]);
+    // const currentCards = [...cards];
+    setCards([...cards, newCard]);
   }
   React.useEffect(() => {
     fetch('/cards.json')
